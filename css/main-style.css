@@ -1,0 +1,351 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Cinzel Regular'), local('Cinzel-Regular'), url(https://fonts.gstatic.com/s/cinzel/v9/8vIJ7ww63mVu7gt7-GT7LEc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Cinzel Regular'), local('Cinzel-Regular'), url(https://fonts.gstatic.com/s/cinzel/v9/8vIJ7ww63mVu7gt79mT7.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Cinzel Bold'), local('Cinzel-Bold'), url(https://fonts.gstatic.com/s/cinzel/v9/8vIK7ww63mVu7gtzTUHuHWZaC_w.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Cinzel Bold'), local('Cinzel-Bold'), url(https://fonts.gstatic.com/s/cinzel/v9/8vIK7ww63mVu7gtzTUHuE2Za.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwPIsWqhPAMif.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwPIsWqZPAA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html {
+    width: 100vw;
+    min-width: 550px !important;
+    height: min-content;
+    overflow-x: hidden;
+}
+body {
+    font-family: "Raleway", sans-serif;
+    color: #2e313b;
+    background-color: #f3f3f3;
+}
+.row {	
+    width: 100%;	
+}
+
+/*Site nav*/
+.navbar {
+    padding: 0;
+    position: fixed;
+}
+.navbar-toggler {
+    padding: 4px;
+    margin-right: 1rem;
+}
+
+/*Site header*/
+.cover {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center; }
+.vh-100 {
+	min-height: 500px !important; }
+h1.h1 {
+	font-family: "Cinzel", serif;
+	font-weight: 400;
+	font-size: 3rem;
+	color: #f3f3f3;
+}
+
+
+/*Introductory section*/
+#intro {
+	background-color: #f3f3f3;
+}
+#intro > .container {
+	z-index: 2;
+	position: relative;
+	top: -1rem;
+}
+@media (min-width: 992px) {
+    .row.bg-light {
+        max-width: 800px;
+    }
+}
+@media (max-width: 768px) {
+    .row.bg-light {
+        max-width: 90vw;
+    }
+}
+@media (min-width: 768px) {
+    .media .img-fluid {
+        max-width: 45%;
+        height: 200px;
+  }
+}
+
+/*Informative section*/
+#graph {
+    background-color: #2a2e42;
+    position: relative;
+    top: -100px;
+    padding-top: 150px;
+    padding-bottom: 3rem;
+    color: #f3f3f3 !important;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #myCanvas.img-fluid {
+        margin-left: 50px;
+    }
+}
+
+/*what went wrong section*/
+div.card {
+    margin-bottom: 2.5rem;
+}
+.card-title:not(:first-of-type) {
+    margin-top: 2rem;
+}
+img.title-icon {	
+    width: 2rem;	
+    height: auto;	
+    margin-right: 1rem;	
+}
+.btn-primary {
+    border: none;
+}
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: none;
+}
+.h4.early-warning, 
+.h4.quick-response,
+.h4.virus-transmission,
+.h4.workers-safety,
+.h4.economy-usage,
+.h4.protection-disinformation,
+.h4.human-rights,
+.h4.design-resilience  {
+    color: #2e313b;
+}
+.early-warning {
+    background-color: #00ffcc;
+}
+.quick-response {
+    background-color: #ffb539;
+}
+.effective-communication {
+    background-color: #ff0066;
+}
+.healthcare-system {	
+    background-color: #3366ff;	
+}	
+.virus-transmission {	
+    background-color: #ffff66;	
+}	
+.btn-primary.virus-transmission {	
+    color: #2e313b;	
+}	
+.essential-services {	
+    background-color: #ac0066;	
+}	
+.workers-safety {	
+    background-color: #99cc00;	
+}	
+.economy-usage {	
+    background-color: #7490df;	
+}	
+.research-innovation {	
+    background-color: #ff1a1a;	
+}	
+.protection-disinformation {	
+    background-color: #cc66ff;	
+}	
+.virus-resurgence {	
+    background-color: #ff4000;	
+}
+.citizens-protection {	
+    background-color: #004080;	
+}	
+.human-rights {	
+    background-color: #ffd11a;	
+}	
+.underlying-vulnerabilities {	
+    background-color: #009900;	
+}	
+.design-resilience {	
+    background-color: #ff6666;	
+}	
+.card-header.effective-communication	
+.card-header.healthcare-system, 
+.card-header.essential-services,
+.card-header.research-innovation, 
+.card-header.virus-resurgence, 
+.card-header.citizens-protection, 
+.card-header.underlying-vulnerabilities {	
+    color: #f3f3f3;	
+}
+
+/*Contributions section*/	
+#contribute {	
+    background-color: #2a2e42;	
+    color: #f3f3f3 !important;	
+    padding-top: 5rem;	
+    padding-bottom: 3rem;	
+}	
+div > label.btn {	
+    width: 160px !important;	
+    padding: 0;	
+    align-content: center;	
+    vertical-align: middle;	
+}	
+#ewlbl {	
+    background-color: #00ffcc;	
+    color: #2e313b;	
+}	
+#qrlbl {	
+    background-color: #ffb539;	
+    color: #2e313b;	
+}	
+#eclbl {	
+    background-color: #ff0066;	
+    color: #f3f3f3;	
+}	
+#hsrlbl {	
+    background-color: #3366ff;	
+    color: #f3f3f3;	
+}	
+#vtdlbl {	
+    background-color: #ffff66;	
+    color: #2e313b;	
+}	
+#esclbl {	
+    background-color: #ac0066;	
+    color: #f3f3f3;	
+}	
+#wslbl {	
+    background-color: #99cc00;	
+    color: #2e313b;	
+}	
+#eulbl {	
+    background-color: #7490df;	
+    color: #2e313b;	
+}	
+#rilbl {	
+    background-color: #ff1a1a;	
+    color: #f3f3f3;	
+}	
+#padlbl {	
+    background-color: #cc66ff;	
+    color: #2e313b;	
+}	
+#vrplbl {	
+    background-color: #ff4000;	
+    color: #f3f3f3;	
+}	
+#cplbl {	
+    background-color: #004080;	
+    color: #f3f3f3;	
+}	
+#phrlbl {	
+    background-color: #ffd11a;	
+    color: #2e313b;	
+}	
+#luvlbl {	
+    background-color: #009900;	
+    color: #f3f3f3;	
+}	
+#drlbl {	
+    background-color: #ff6666;	
+    color: #2e313b;	
+}	
+.btn-outline-primary.srch {	
+    margin-top: 2rem;	
+    width: 185px;	
+    color: #91ff48;	
+    border-color: #91ff48;	
+}	
+.btn-outline-primary.contr {	
+    margin-top: 2rem;	
+    width: 185px;	
+    color: #ffd258;	
+    border-color: #ffd258;	
+}	
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    background-color: #f0ffff80;
+}
+.opacity-0 {	
+    width: 0;	
+    height: 0;	
+    opacity: 0;	
+}
+@media (max-width: 767.98px) {
+    div > label.btn {
+        width: 130px !important;
+    }
+}
+
+/*Support section*/
+#support {
+    padding-top: 5rem;	
+    padding-bottom: 3rem;
+}
+
+
+/*Footer*/
+footer small {
+    color: #f3f3f3;
+}
