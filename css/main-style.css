@@ -343,6 +343,30 @@ div > label.btn {
     padding-top: 5rem;	
     padding-bottom: 3rem;
 }
+a.btn-outline-primary:hover,
+a.btn-outline-primary:focus {
+    color: #a52a2a;
+    font-weight: bolder;
+    border: none;
+}
+label.btn-outline-primary {
+    min-width: 246px;
+    padding: 3rem;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+label.btn-outline-primary:hover,
+label.btn-outline-primary:focus {
+    color: green;
+    font-weight: bolder;
+    border: none;
+    background-color: none;
+}
 
 
 /*Footer*/
