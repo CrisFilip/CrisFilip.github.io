@@ -109,6 +109,9 @@ h1.h1 {
 	font-size: 3rem;
 	color: #f3f3f3;
 }
+.cover h2.h2 {
+    color: #f3f3f3;
+}
 
 
 /*Introductory section*/
@@ -188,9 +191,11 @@ img.title-icon {
 }
 .effective-communication {
     background-color: #ff0066;
+    color: #f3f3f3;
 }
 .healthcare-system {	
-    background-color: #3366ff;	
+    background-color: #3366ff;
+    color: #f3f3f3;	
 }	
 .virus-transmission {	
     background-color: #ffff66;	
