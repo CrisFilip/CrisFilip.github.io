@@ -74,8 +74,8 @@
 html {
     width: 100vw;
     min-width: 550px !important;
-	height: min-content;
-	overflow-y: scroll;
+    height: min-content;
+    overflow-x: hidden;
 }
 body {
     font-family: "Raleway", sans-serif;
@@ -88,6 +88,7 @@ body {
 
 /*Site nav*/
 .navbar {
+    padding: 0;
     position: fixed;
 }
 .navbar-toggler {
@@ -145,6 +146,11 @@ h1.h1 {
     padding-bottom: 3rem;
     color: #f3f3f3 !important;
 }
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #myCanvas.img-fluid {
+        margin-left: 50px;
+    }
+}
 
 /*what went wrong section*/
 div.card {
@@ -164,6 +170,16 @@ img.title-icon {
 .btn-primary:focus, .btn-primary.focus {
     box-shadow: none;
 }
+.h4.early-warning, 
+.h4.quick-response,
+.h4.virus-transmission,
+.h4.workers-safety,
+.h4.economy-usage,
+.h4.protection-disinformation,
+.h4.human-rights,
+.h4.design-resilience  {
+    color: #2e313b;
+}
 .early-warning {
     background-color: #00ffcc;
 }
@@ -173,14 +189,8 @@ img.title-icon {
 .effective-communication {
     background-color: #ff0066;
 }
-.card-header.effective-communication {
-    color: #f3f3f3;
-}
 .healthcare-system {	
     background-color: #3366ff;	
-}	
-.card-header.healthcare-system {	
-    color: #f3f3f3;	
 }	
 .virus-transmission {	
     background-color: #ffff66;	
@@ -191,9 +201,6 @@ img.title-icon {
 .essential-services {	
     background-color: #ac0066;	
 }	
-.card-header.essential-services {	
-    color: #f3f3f3;	
-}	
 .workers-safety {	
     background-color: #99cc00;	
 }	
@@ -203,23 +210,14 @@ img.title-icon {
 .research-innovation {	
     background-color: #ff1a1a;	
 }	
-.card-header.research-innovation {	
-    color: #f3f3f3;	
-}	
 .protection-disinformation {	
     background-color: #cc66ff;	
 }	
 .virus-resurgence {	
     background-color: #ff4000;	
-}	
-.card-header.virus-resurgence {	
-    color: #f3f3f3;	
-}	
+}
 .citizens-protection {	
     background-color: #004080;	
-}	
-.card-header.citizens-protection {	
-    color: #f3f3f3;	
 }	
 .human-rights {	
     background-color: #ffd11a;	
@@ -227,23 +225,26 @@ img.title-icon {
 .underlying-vulnerabilities {	
     background-color: #009900;	
 }	
-.card-header.underlying-vulnerabilities {	
-    color: #f3f3f3;	
-}	
 .design-resilience {	
     background-color: #ff6666;	
 }	
-
+.card-header.effective-communication	
+.card-header.healthcare-system, 
+.card-header.essential-services,
+.card-header.research-innovation, 
+.card-header.virus-resurgence, 
+.card-header.citizens-protection, 
+.card-header.underlying-vulnerabilities {	
+    color: #f3f3f3;	
+}
 
 /*Contributions section*/	
 #contribute {	
     background-color: #2a2e42;	
     color: #f3f3f3 !important;	
-    padding-top: 3rem;	
+    padding-top: 5rem;	
     padding-bottom: 3rem;	
 }	
-
-
 div > label.btn {	
     width: 160px !important;	
     padding: 0;	
@@ -322,10 +323,29 @@ div > label.btn {
     color: #ffd258;	
     border-color: #ffd258;	
 }	
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    background-color: #f0ffff80;
+}
 .opacity-0 {	
     width: 0;	
     height: 0;	
     opacity: 0;	
 }
+@media (max-width: 767.98px) {
+    div > label.btn {
+        width: 130px !important;
+    }
+}
+
+/*Support section*/
+#support {
+    padding-top: 5rem;	
+    padding-bottom: 3rem;
+}
 
 
+/*Footer*/
+footer small {
+    color: #f3f3f3;
+}
